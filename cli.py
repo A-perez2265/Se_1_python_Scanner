@@ -76,9 +76,9 @@ class CLI:
         try:
             self.parse_arguments()
             #Decorators and Title print out
-            print(f"\n{'-'*50}")
+            print(f"\n{'-'*70}")
             print(f"Static Vulnerability Scanner - DEMO VERSION")
-            print(f"{'-'*50}\n")
+            print(f"{'-'*70}\n")
             print(f"Scanning: {self.filepath}")
             print(f"Flags enabled: {', '.join(self.flags)}\n")
 
@@ -97,9 +97,9 @@ class CLI:
             format_choice = self.prompt_for_format()
             print(f"\n Report saved as {format_choice}")
             
-            print(f"\n{'-'*50}")
+            print(f"\n{'-'*70}")
             print("End of Demo")
-            print(f"{'-'*50}\n")
+            print(f"{'-'*70}\n")
 
         # Exit on user input and print exception
         except KeyboardInterrupt:
@@ -115,9 +115,9 @@ class CLI:
 
 
     def display_mock_report(self):
-        print(f"\n{'-'*50}")
+        print(f"\n{'-'*70}")
         print("Vulnerability Report(Example)")
-        print(f"{'-'*50}\n")
+        print(f"{'-'*70}\n")
         print(f"file: {self.filepath}")
         print(f"Timestamp :[Monday, October 20th 4pm]")
 

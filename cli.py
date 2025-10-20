@@ -122,7 +122,7 @@ class CLI:
         print(f"Timestamp :[Monday, October 20th 4pm]")
 
         #mock issues
-        print("Issues Found: 3")
+        print("Issues Found: 1")
 
         print("1. line 19: Use of eval() function")
         print("   Severity: HIGH")
@@ -151,16 +151,4 @@ if __name__ == "__main__":
 
 
 
-# parser.add_argument(
-#     'name_or_flag',           # Required: 'filepath' or '--risky'
-#     action='store',           # What to do with the value
-#     nargs=1,                  # How many arguments to consume
-#     const=None,               # Constant value for certain actions
-#     default=None,             # Default value if not provided
-#     type=str,                 # Convert to this type (int, float, etc.)
-#     choices=['a', 'b'],       # Limit to these choices
-#     required=False,           # Force optional arg to be required
-#     help='help text',         # Description for --help
-#     metavar='FILE',           # Name in usage messages
-#     dest='variable_name'      # Store in this variable name
-# )
+

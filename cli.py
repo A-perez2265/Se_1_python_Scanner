@@ -11,6 +11,7 @@ class CLI:
     
     
     def _create_parser(self):
+        #https://docs.python.org/3/library/argparse.html <<<source
         parser = argparse.ArgumentParser(
             description='Static Vulnerability Scanner for python files',
             epilog='Ex. python main.py main.py yourscript.py'
@@ -110,16 +111,13 @@ class CLI:
             sys.exit(1)
 
 
-            
-
-
 
     def display_mock_report(self):
         print(f"\n{'-'*70}")
         print("Vulnerability Report(Example)")
         print(f"{'-'*70}\n")
         print(f"file: {self.filepath}")
-        print(f"Timestamp :[Monday, October 20th 4pm]")
+        print(f"Timestamp :Monday, October 20th 4pm")
 
         #mock issues
         print("Issues Found: 1")
